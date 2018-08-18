@@ -3,6 +3,8 @@ environment:
     - nodejs_version: "8"
   COVERALLS_REPO_TOKEN:
     secure: xQJLaUsUOEQLsBy6/ne0aJ5BvK54HDYeTKH2V3qSnQYF0zTCxQI5mw1eOrMUZfrX
+  GH_TOKEN:
+    secure: j0kYnYz/05rmEEz7KMG+hVlTeg0au3iJha5ocpvSXnSnqxmVaSdPvJFZD7fUEjiu
 
 init:
   - git config --global core.symlinks true
